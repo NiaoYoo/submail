@@ -1,5 +1,5 @@
 {
-    "name": "woaimm",
+    "name": "NiaoYoo/submail",
     "description": "Woaimm for Thinkphp5",
     "keywords": ["Woaimm", "thinkphp5"],
     "license": "MIT",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "niaoyoo\\think\\aimm\\": "src"
+            "think\\submail\\": "src"
         }
     }
 }
