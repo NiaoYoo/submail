@@ -1,5 +1,5 @@
 <?PHP
-
+namespace think\submail;
     /*
      |--------------------------------------------------------------------------
      | SUBMAIL SDK autoloader.
@@ -8,7 +8,9 @@
      | copyright 2011 - 2014 SUBMAIL
      |--------------------------------------------------------------------------
      */
-
+class Submail
+{
+    var_dump('expression');
     function SUBMAILAutoload($classname){
         $filename = dirname(__FILE__).DIRECTORY_SEPARATOR.'lib/'.strtolower($classname).'.php';
         if (is_readable($filename)) {
@@ -27,3 +29,4 @@
             SUBMAILAutoload($classname);
         }
     }
+}
